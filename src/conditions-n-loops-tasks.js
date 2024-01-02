@@ -172,7 +172,9 @@ function convertToRomanNumerals(num) {
  *  '10,5'    => 'one zero point five'
  *  '1950.2'  => 'one nine five zero point two'
  */
-function convertNumberToString(numberStr) {}
+function convertNumberToString(/* numberStr */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Determines whether a string is a palindrome.
@@ -265,7 +267,7 @@ function getBalanceIndex(/* arr */) {
  *          [10, 9,  8,  7]
  *        ]
  */
-function getSpiralMatrix(size) {
+function getSpiralMatrix(/* size */) {
   throw new Error('Not implemented');
 }
 
